@@ -1,3 +1,5 @@
+import Card from "../components/Card";
+
 function ProjectsSection() {
   return (
     <section
@@ -10,6 +12,10 @@ function ProjectsSection() {
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
           Выберите проект для автоматизации процессов университета
         </p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <Card />
       </div>
     </section>
   );
